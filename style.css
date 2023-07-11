@@ -1,0 +1,81 @@
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6tAjJF2Rqmw/v0/-999x-999.gif");
+    background-repeat: no-repeat;
+  background-size:cover;
+  font-size:150px;
+  text-align: center;
+
+  
+}
+
+#heading{
+  display: flex;
+align-content: center;
+  flex-direction: column;
+  text-align:center;
+  font-size:65px;
+  color:#ff0000;
+  font-weight: bolder;
+}
+
+#text{
+  display: flex;
+  flex-direction: column;
+/* align-content: center; */
+  text-align:left;
+  color:#eb0505;
+   border: 4px solid #10460c;
+  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+    float: left;
+  align-items:center;
+  font-size:25px;
+    width: 530px;
+    height: 580px;
+    margin: 0px 11px 0px 7px;
+    position: relative;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+
+#side1{
+   background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZnNnFveDQxYmRxZXZtbGdxdGRscmhybGVneTZtdXI3bG01b3RzdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif");
+  font-size:25px;
+  display: flex;
+    border: 6px solid black;
+    background-color: black;
+    opacity: 0.8;
+    float: left;
+    width: 389px;
+    height: 696px;
+    margin: -118px 11px 0px 0px;
+  color: green;
+  box-shadow: 4px 6px green;
+    position: relative;
+    overflow: auto;
+}
+
+#side2{
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZnNnFveDQxYmRxZXZtbGdxdGRscmhybGVneTZtdXI3bG01b3RzdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif");
+  font-size:25px;
+  display: flex;
+    border: 6px solid black;
+    background-color: black;
+    color:green;
+    opacity: 0.8;
+    float: right;
+    width: 389px;
+    height: 696px;
+    margin: -118px 0px 0px 0px;
+  box-shadow: -4px -6px green;
+    position: relative;
+    overflow: auto;
+  
+}
+
