@@ -1,6 +1,5 @@
 
-let user = prompt("Enter User's Name To Proceed")
-
+let user = prompt("Enter,U.ser's Name To Proceed")
 if (user) {
   let Name_code = [
     `@4z6G&L`,
@@ -93,7 +92,8 @@ if (user) {
   let Usr_Name = Name_code[i]
 
   let arr = [
-    `$-> Access granted`,
+    `$------------------------- Access granted----------------------`,
+    `\t\t\t\t`,
     `$-> Wait Connecting To The Server.....`,
     `$-> Initializing the NITKO network.....`,
     `$-> Fetching the network got failed retrying.....`,
