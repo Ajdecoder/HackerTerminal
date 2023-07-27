@@ -1,5 +1,5 @@
 
-let user = prompt("Enter,U.ser's Name To Proceed")
+let user = prompt("Enter User Name To Proceed")
 if (user) {
   let Name_code = [
     `@4z6G&L`,
