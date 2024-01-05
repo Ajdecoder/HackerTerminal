@@ -1,84 +1,130 @@
-  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background-image: url("https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6tAjJF2Rqmw/v0/-999x-999.gif");
-    background-repeat: no-repeat;
-  background-size:cover;
-  font-size:150px;
-  text-align: justify;  
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 150px;
+  overflow: hidden;
 }
 
-#heading{
+#heading {
   display: flex;
-align-content: center;
+  align-content: center;
   flex-direction: column;
-  text-align:center;
-  font-size:65px;
-  color:#ff0000;
+  text-align: center;
+  font-size: 65px;
+  color: #ff0000;
   font-weight: bolder;
+  align-items: center;
 }
 
-#text{
+#text {
   display: flex;
   flex-direction: column;
-justify-content: flex-start;
-  text-align:left;
-  color:#eb0505;
-   border: 4px solid #10460c;
-  text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
-    float: left;
-  align-items:flex-start;
-  font-size:25px;
-    width: 560px;
-    height: 580px;
-    margin: 0px 11px 0px 0px;
-    position: relative;
-    overflow: auto;
-    box-sizing: border-box;
+  justify-content: flex-start;
+  text-align: left;
+  color: #eb0505;
+  align-items: flex-start;
+  font-size: 25px;
+  font-weight: bolder;
+  width: 560px;
+  height: 516px;
+  position: auto;
+  box-sizing: border-box;
+  top: 25px;
+  overflow: hidden;
 }
 
-
-#side1{
-   background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZnNnFveDQxYmRxZXZtbGdxdGRscmhybGVneTZtdXI3bG01b3RzdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif");
-  font-size:25px;
+#side1 {
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZnNnFveDQxYmRxZXZtbGdxdGRscmhybGVneTZtdXI3bG01b3RzdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif");
+  font-size: 25px;
   display: flex;
-    border: 6px solid black;
-    background-color: black;
-    opacity: 0.8;
-    width: 389px;
-    height: 696px;
-    margin: -118px 16px 0px 0px;
+  border: 6px solid black;
+  background-color: black;
+  opacity: 0.8;
+  width: 389px;
+  height: 41rem;
+  margin: -118px 16px 0px 0px;
   color: green;
   box-shadow: 4px 6px green;
-    position: relative;
+  position: relative;
   /* position:flex-start; */
-    overflow: auto;
+  overflow: auto;
 }
 
-#side2{
+#side2 {
   background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExczZnNnFveDQxYmRxZXZtbGdxdGRscmhybGVneTZtdXI3bG01b3RzdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/077i6AULCXc0FKTj9s/giphy.gif");
-  font-size:25px;
+  font-size: 25px;
   display: flex;
-    border: 6px solid black;
-    background-color: black;
-    color:green;
-    opacity: 0.8;
-    width: 389px;
-    height: 696px;
-    margin: -118px 0px 0px 7px;
-  box-shadow: -4px -6px green;
-    position: flex-end;
-    overflow: auto;
-  
+  border: 6px solid black;
+  background-color: black;
+  opacity: 0.8;
+  width: 389px;
+  height: 41rem;
+  margin: -118px 16px 0px 0px;
+  color: green;
+  box-shadow: 4px 6px green;
+  position: relative;
+  left: 16px;
+  overflow: auto;
 }
 
-#container{
+#container {
   display: flex;
-  
 }
 
+#input {
+  display: flex;
+  align-items: center;
+  width: 323px;
+  height: 40px;
+  text-align: center;
+  border-radius: 14px;
+  margin-top: 28px;
+  margin-right: 3rem;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #000205;
+}
+
+
+#forinput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#forinput:focus {
+  border: slateblue solid;
+}
+
+#btn {
+  display: flex;
+  position: relative;
+  left: 11rem;
+  top: 16px;
+  border: #10460c solid;
+  border-radius: 14px;
+  width: 60px;
+  height: 39px;
+  color: #000;
+  display: block;
+  cursor: pointer;
+background: #f58c03c7;
+}
+
+#btn:hover {
+  transition: cubic-bezier(1, 0, 0, 1);
+  background-color: rebeccapurple;
+}
+
+p{
+  font-size: 45px;
+}
